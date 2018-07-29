@@ -13,7 +13,7 @@ Executing a script is very simple:
 package main
 
 import (
-    php "github.com/deuill/go-php"
+    php "github.com/xtgxiso/go-php"
     "os"
 )
 
@@ -39,7 +39,7 @@ package main
 
 import (
     "fmt"
-    php "github.com/deuill/go-php"
+    php "github.com/xtgxiso/go-php"
 )
 
 func main() {
