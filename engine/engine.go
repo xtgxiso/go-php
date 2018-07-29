@@ -6,8 +6,8 @@
 // of PHP engine bindings, off which execution contexts can be launched.
 package engine
 
-// #cgo CFLAGS: -I/usr/include/php -I/usr/include/php/main -I/usr/include/php/TSRM
-// #cgo CFLAGS: -I/usr/include/php/Zend -Iinclude
+// #cgo CFLAGS: -I/xtgxiso/go-php/php/include/php -I/xtgxiso/go-php/php/include/php/main -I/xtgxiso/go-php/php/include/php/TSRM
+// #cgo CFLAGS: -I/xtgxiso/go-php/php/include/php/Zend -Iinclude -lphp7 -L/xtgxiso/go-php/php/lib/ -Wl,-rpath=/xtgxiso/go-php/php/lib
 //
 // #include <stdlib.h>
 // #include <main/php.h>
