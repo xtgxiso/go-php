@@ -63,10 +63,10 @@ static void engine_register_variables(zval *track_vars_array) {
 	php_import_environment_variables(track_vars_array);
 }
 
-static void engine_log_message(char *str) {
+static void engine_log_message(char *str,int len) {
 	engine_context *context = SG(server_context);
 
-	engineWriteLog(context, (void *) str, strlen(str));
+	engineWriteLog(context, (void *) str, len);
 }
 
 static sapi_module_struct engine_module = {

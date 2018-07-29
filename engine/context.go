@@ -5,7 +5,8 @@
 package engine
 
 // #cgo CFLAGS: -I/xtgxiso/go-php/php/include/php -I/xtgxiso/go-php/php/include/php/main -I//xtgxiso/go-php/php/include/php/TSRM
-// #cgo CFLAGS: -I/xtgxiso/go-php/php/include/php/Zend -Iinclude -lphp7 -L/xtgxiso/go-php/php/lib/ -Wl,-rpath=/xtgxiso/go-php/php/lib
+// #cgo CFLAGS: -I/xtgxiso/go-php/php/include/php/Zend -Iinclude
+// #cgo LDFLAGS: -lphp7 -L/xtgxiso/go-php/php/lib/
 //
 // #include <stdlib.h>
 // #include <main/php.h>
